@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/knucklehead_motors_aaft/static/css/main.4ad6b91b.css",
+    "main.js": "/knucklehead_motors_aaft/static/js/main.4c8784c1.js",
+    "index.html": "/knucklehead_motors_aaft/index.html",
+    "main.4ad6b91b.css.map": "/knucklehead_motors_aaft/static/css/main.4ad6b91b.css.map",
+    "main.4c8784c1.js.map": "/knucklehead_motors_aaft/static/js/main.4c8784c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad6b91b.css",
+    "static/js/main.4c8784c1.js"
+  ]
+}

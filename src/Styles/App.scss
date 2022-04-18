@@ -1,0 +1,3717 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bai+Jamjuree:wght@300&family=Dancing+Script:wght@500&family=Karla:wght@500&family=Karma:wght@300&family=Ms+Madi&family=Six+Caps&family=Square+Peg&family=Yeseva+One&display=swap");
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+}
+#root {
+  width: 100%;
+}
+#navbar {
+  background-color: #ff4400;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+
+  header {
+    background-color: #ff4400;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    #header-container {
+      width: fit-content;
+      display: flex;
+      flex-direction: row;
+
+      padding-right: 1rem;
+      #header-link {
+        margin-bottom: -1rem;
+      }
+
+      img[alt="logo"] {
+        margin: -1rem 2.5rem;
+        background-color: #ff4400;
+      }
+      h1 {
+        color: black;
+        font-size: 7rem;
+        font-family: "Six Caps", sans-serif;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        width: fit-content;
+      }
+      h1:hover {
+        cursor: default;
+      }
+    }
+
+    img[alt="arrow"] {
+      position: absolute;
+      right: 1rem;
+      display: none;
+    }
+
+    .nav-text {
+      background-color: black;
+      margin-right: 0px;
+      width: fit-content;
+
+      height: 10rem;
+      font-size: 3rem;
+      font-family: "Bai Jamjuree", sans-serif;
+      ul {
+        display: flex;
+      }
+      ul li {
+        list-style: none;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+      .nav-a {
+        text-decoration: none;
+        color: #ff4800;
+        cursor: pointer;
+        border: #ff4800 0.3rem solid;
+        border-radius: 5px;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        width: max-content;
+        padding: 0.5rem 1rem;
+        text-shadow: 0 0 5px white, 0 0 10px #ff4800;
+        box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+      }
+
+      .nav-a:hover {
+        font-size: 3.5rem;
+        background-color: #ff4800;
+        text-shadow: none;
+        color: black;
+        box-shadow: 0 0 30px 8px #ff4800;
+      }
+    }
+  }
+}
+
+#home {
+  img[alt="hdmomoa"] {
+    width: 100%;
+    height: 90rem;
+  }
+  img[alt="riders"] {
+    width: 90%;
+    height: 80rem;
+    box-shadow: -10px 20px 0px #c53500;
+  }
+  .Text {
+    color: #dd4814;
+    text-align: center;
+    padding: 1rem;
+
+    h2 {
+      font-family: "Yeseva One", cursive;
+      font-size: 12rem;
+      margin: auto;
+    }
+    .infoText {
+      font-family: "Karma", serif;
+      font-size: 5rem;
+    }
+    h3 {
+      font-family: "Six Caps", sans-serif;
+      font-size: 15rem;
+      margin-top: 7rem;
+      margin-bottom: 2rem;
+    }
+    #hometext2 {
+      margin-top: 1rem;
+      font-size: 3rem;
+    }
+    #hometext3 {
+      margin-top: 1rem;
+      font-size: 3rem;
+    }
+  }
+  footer {
+    width: 100%;
+    height: 8rem;
+    background-color: black;
+    padding: 1rem;
+    #footer-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img[alt="instagram"] {
+        background-color: #ff4400;
+        border-radius: 5px;
+        width: 5.5rem;
+        height: 5.5rem;
+      }
+      img[alt="instagram"]:hover {
+        border: 5px solid #ff4800;
+        border-radius: 5px;
+        box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+      }
+      img[alt="twitter"] {
+        background-color: #ff4400;
+        border-radius: 5px;
+        width: 6rem;
+        height: 6rem;
+      }
+      img[alt="twitter"]:hover {
+        border: 5px solid #ff4800;
+        border-radius: 5px;
+        box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+      }
+      img[alt="youtube"] {
+        background-color: #ff4400;
+        border-radius: 5px;
+        width: 6rem;
+        height: 6rem;
+      }
+      img[alt="youtube"]:hover {
+        border: 5px solid #ff4800;
+        border-radius: 5px;
+        box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+      }
+    }
+  }
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  img[alt="knucklehead"] {
+    display: block;
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: -10px 15px 0px #c53500;
+  }
+  .text {
+    color: orange;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Karma", serif;
+  }
+  img[alt="cruiser"] {
+    background-color: #ff4400;
+    width: 10rem;
+    height: 6rem;
+    margin: 10rem 75rem;
+    border-radius: 3rem;
+  }
+  img[alt="cruiser"]:hover {
+    cursor: pointer;
+    height: 7rem;
+    width: 11rem;
+    box-shadow: 0 0 30px 8px #ff4800;
+  }
+  .infoTextReveal {
+    display: none;
+  }
+}
+
+#bikes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rem;
+  h4 {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10rem;
+    color: #ff4400;
+  }
+
+  h4:hover {
+    text-shadow: 0 0 10px #ff4400;
+    color: black;
+    cursor: pointer;
+  }
+
+  .Container {
+    width: 90%;
+  }
+  #retro {
+    font-family: "Ms Madi", cursive;
+  }
+  #naked {
+    font-family: "Anton", sans-serif;
+  }
+  #adventure {
+    font-family: "Square Peg", cursive;
+  }
+  #future {
+    font-family: "Dancing Script", cursive;
+  }
+  img[alt="brando"] {
+    width: 125rem;
+    box-shadow: -10px 20px 0px #c53500;
+  }
+  img[alt="superduke"] {
+    width: 125rem;
+    box-shadow: -10px 20px 0px #c53500;
+  }
+  img[alt="pan_america"] {
+    width: 125rem;
+    box-shadow: -10px 20px 0px #c53500;
+  }
+  img[alt="livewire"] {
+    width: 125rem;
+    box-shadow: -10px 20px 0px #c53500;
+  }
+}
+
+#retro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  .title {
+    color: #ff4400;
+    font-size: 10rem;
+    font-family: "Yeseva One", cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .title:hover {
+    cursor: default;
+  }
+  h4 {
+    color: #ff4400;
+    font-size: 20rem;
+    font-family: "Ms Madi", cursive;
+    text-shadow: 0 0 10px #ff4800;
+  }
+  .info {
+    color: #ff4400;
+    font-size: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    td {
+      border: 1px solid #ff4800;
+      box-shadow: 0 0 20px 3px #ff4800;
+      font-size: 5rem;
+      color: #ff4400;
+      padding: 1rem;
+      //text-shadow: 0 0 10px #ff4800;
+    }
+  }
+  img[alt="w800"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="xsr900"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="scrambler"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="speedtwin"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="v7"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+}
+#naked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  .title {
+    color: #ff4400;
+    font-size: 10rem;
+    font-family: "Yeseva One", cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .title:hover {
+    cursor: default;
+  }
+  h4 {
+    color: #ff4400;
+    font-size: 20rem;
+    font-family: "Anton", sans-serif;
+    text-shadow: 0 0 10px #ff4800;
+  }
+  .info {
+    color: #ff4400;
+    font-size: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    td {
+      border: 1px solid #ff4800;
+      box-shadow: 0 0 20px 3px #ff4800;
+      font-size: 5rem;
+      color: #ff4400;
+      padding: 1rem;
+      //text-shadow: 0 0 10px #ff4800;
+    }
+  }
+  img[alt="mt03"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="superduke1290r"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="zh2"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="800rr"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="fatbob"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+}
+
+#adventure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  .title {
+    color: #ff4400;
+    font-size: 10rem;
+    font-family: "Yeseva One", cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .title:hover {
+    cursor: default;
+  }
+  h4 {
+    color: #ff4400;
+    font-size: 20rem;
+    font-family: "Square Peg", cursive;
+    text-shadow: 0 0 10px #ff4800;
+  }
+  .info {
+    color: #ff4400;
+    font-size: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    td {
+      border: 1px solid #ff4800;
+      box-shadow: 0 0 20px 3px #ff4800;
+      font-size: 5rem;
+      color: #ff4400;
+      padding: 1rem;
+      //text-shadow: 0 0 10px #ff4800;
+    }
+  }
+  img[alt="tiger1200"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="vstrom"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="1250gs"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="890r"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+  img[alt="panamerica"] {
+    width: 120rem;
+    margin: 0 20rem;
+    box-shadow: 10px 20px 0px #c53500;
+  }
+}
+
+#Future {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h4 {
+    color: #ff4400;
+    font-size: 20rem;
+    font-family: "Karla", sans-serif;
+    text-shadow: 0 0 50px #ff4800;
+    margin-bottom: 5rem;
+  }
+  .info {
+    color: #ff4400;
+    font-size: 5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img[alt="livewire2"] {
+    width: 100%;
+  }
+  #vid {
+    width: 90%;
+    height: 100rem;
+    margin-bottom: 5rem;
+
+    iframe {
+      width: 100%;
+    }
+  }
+}
+.Slider {
+  .carousel {
+    .carousel-status {
+      display: none;
+    }
+    display: flex;
+    justify-content: center;
+    .thumb {
+      height: 5rem;
+      width: auto;
+    }
+    .thumb:focus {
+      border: 3px solid #ff4800;
+      box-shadow: 0 0 20px 0 #ff4800;
+    }
+    .thumb:hover {
+      border: 3px solid #ff4800;
+      box-shadow: 0 0 10px 0 #ff4800;
+    }
+
+    .image {
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #navbar {
+    height: auto;
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+
+      padding-top: 0;
+      justify-content: Start;
+      #header-container {
+        flex-direction: row;
+        margin-bottom: none;
+
+        #header-link {
+          width: fit-content;
+
+          img[alt="logo"] {
+            height: 8rem;
+            width: 10rem;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+      .nav-text {
+        display: none;
+      }
+      .nav-text-mobile {
+        background-color: black;
+        min-width: 100%;
+        margin-top: 1rem;
+        min-height: 25rem;
+        margin-right: 0;
+        margin-left: 0rem;
+        font-size: 3rem;
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 2px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 3.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 30px 8px #ff4800;
+        }
+
+        ul {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          margin-right: 0;
+          padding-left: 0;
+          padding-right: 0;
+
+          li {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 0;
+            text-align: center;
+
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      img[alt="arrow"] {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  #home {
+    width: fit-content;
+    margin-top: 0rem;
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 30rem;
+      margin-top: 7rem;
+    }
+    img[alt="riders"] {
+      height: 25rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .Text {
+      h2 {
+        font-size: 5rem;
+        margin-top: 5rem;
+      }
+      #hometext1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 10rem;
+      }
+      #hometext2 {
+        font-size: 2rem;
+      }
+      #hometext3 {
+        font-size: 2rem;
+      }
+    }
+    footer {
+      height: 6rem;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="instagram"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="twitter"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="youtube"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+      }
+    }
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      height: 50rem;
+      margin-top: 10rem;
+
+      width: 90%;
+      box-shadow: -8px 15px 0px #c53500;
+    }
+    .text {
+      font-size: 3rem;
+    }
+    img[alt="cruiser"] {
+      height: 5rem;
+      width: 10rem;
+      margin: 10rem auto;
+    }
+    img[alt="cruiser"]:hover {
+      height: 6rem;
+      width: 11rem;
+    }
+  }
+  #bikes {
+    margin: 10rem 0rem;
+    width: 100%;
+    .Container {
+      width: 90%;
+      h4 {
+        font-size: 5rem;
+      }
+    }
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 10rem;
+      font-size: 7rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 3rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 20rem;
+    }
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+      .carousel {
+        .thumbs-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 425px) {
+  #navbar {
+    height: auto;
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+
+      padding-top: 0;
+      justify-content: Start;
+      #header-container {
+        flex-direction: row;
+        margin-bottom: none;
+
+        #header-link {
+          width: fit-content;
+
+          img[alt="logo"] {
+            height: 8rem;
+            width: 10rem;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+      .nav-text {
+        display: none;
+      }
+      .nav-text-mobile {
+        background-color: black;
+        min-width: 100%;
+        margin-top: 1rem;
+        min-height: 25rem;
+        margin-right: 0;
+        margin-left: 0rem;
+        font-size: 3rem;
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 2px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 3.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 30px 8px #ff4800;
+        }
+
+        ul {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          margin-right: 0;
+          padding-left: 0;
+          padding-right: 0;
+
+          li {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 0;
+            text-align: center;
+
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      img[alt="arrow"] {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  #home {
+    width: fit-content;
+    margin-top: 0rem;
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 30rem;
+      margin-top: 7rem;
+    }
+    img[alt="riders"] {
+      height: 25rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .Text {
+      h2 {
+        font-size: 5rem;
+        margin-top: 5rem;
+      }
+      #hometext1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 10rem;
+      }
+      #hometext2 {
+        font-size: 2rem;
+      }
+      #hometext3 {
+        font-size: 2rem;
+      }
+    }
+    footer {
+      height: 6rem;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="instagram"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="twitter"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="youtube"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      height: 60rem;
+      margin-top: 10rem;
+      width: 90%;
+      box-shadow: -8px 15px 0px #c53500;
+    }
+    .text {
+      font-size: 3rem;
+    }
+    img[alt="cruiser"] {
+      height: 5rem;
+      width: 10rem;
+      margin: 10rem auto;
+    }
+    img[alt="cruiser"]:hover {
+      height: 6rem;
+      width: 11rem;
+    }
+  }
+  #bikes {
+    margin: 10rem 0rem;
+    width: 100%;
+    .Container {
+      width: 90%;
+      h4 {
+        font-size: 5rem;
+      }
+    }
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 8rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 10rem;
+      font-size: 7rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 3rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 20rem;
+    }
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+      .carousel {
+        .thumbs-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 540px) {
+  #navbar {
+    height: auto;
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+
+      padding-top: 0;
+      justify-content: Start;
+      #header-container {
+        flex-direction: row;
+        margin-bottom: none;
+
+        #header-link {
+          width: fit-content;
+
+          img[alt="logo"] {
+            height: 8rem;
+            width: 10rem;
+            margin-left: 1rem;
+            margin-bottom: 0rem;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+      .nav-text {
+        display: none;
+      }
+      .nav-text-mobile {
+        background-color: black;
+        min-width: 100%;
+        margin-top: 1rem;
+        min-height: 25rem;
+        margin-right: 0;
+        margin-left: 0rem;
+        font-size: 3rem;
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 2px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 3.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 30px 8px #ff4800;
+        }
+
+        ul {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          margin-right: 0;
+          padding-left: 0;
+          padding-right: 0;
+
+          li {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 0;
+            text-align: center;
+
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      img[alt="arrow"] {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  #home {
+    width: fit-content;
+    margin-top: 0rem;
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 30rem;
+      margin-top: 6rem;
+    }
+    img[alt="riders"] {
+      height: 25rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .Text {
+      h2 {
+        font-size: 5.5rem;
+        margin-top: 5rem;
+      }
+      #hometext1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 12rem;
+      }
+      #hometext2 {
+        font-size: 2.5rem;
+      }
+      #hometext3 {
+        font-size: 2.5rem;
+      }
+    }
+    footer {
+      height: 6rem;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="instagram"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="twitter"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="youtube"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      height: 60rem;
+      margin-top: 10rem;
+
+      width: 90%;
+      box-shadow: -8px 15px 0px #c53500;
+    }
+    .text {
+      font-size: 3rem;
+      margin-top: 5rem;
+    }
+    img[alt="cruiser"] {
+      height: 5rem;
+      width: 10rem;
+      margin: 10rem auto;
+    }
+    img[alt="cruiser"]:hover {
+      height: 6rem;
+      width: 11rem;
+    }
+  }
+  #bikes {
+    margin: 10rem 0rem;
+    width: 100%;
+    .Container {
+      width: 100%;
+      h4 {
+        font-size: 6rem;
+      }
+    }
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-top: 5rem;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 8.5rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 8.5rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 8.5rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 5rem;
+      }
+      .info {
+        font-size: 3rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 10rem;
+      font-size: 7rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 3rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 30rem;
+    }
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+      .carousel {
+        .thumbs-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+  #navbar {
+    height: auto;
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+
+      padding-top: 0;
+      justify-content: Start;
+      #header-container {
+        flex-direction: row;
+        margin-bottom: none;
+
+        #header-link {
+          width: fit-content;
+
+          img[alt="logo"] {
+            height: 8rem;
+            width: 10rem;
+            margin-left: 1rem;
+            margin-top: 0.1rem;
+          }
+        }
+        h1 {
+          font-size: 5rem;
+
+          margin-top: 0.1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      .nav-text {
+        display: none;
+      }
+      .nav-text-mobile {
+        background-color: black;
+        min-width: 100%;
+        margin-top: 1rem;
+        min-height: 25rem;
+        margin-right: 0;
+        margin-left: 0rem;
+        font-size: 3.5rem;
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 2px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 3.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 30px 8px #ff4800;
+        }
+
+        ul {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          margin-right: 0;
+          padding-left: 0;
+          padding-right: 0;
+
+          li {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 0;
+            text-align: center;
+
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      img[alt="arrow"] {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  #home {
+    width: 100%;
+    margin-top: 0rem;
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 40rem;
+      margin-top: 7rem;
+    }
+    img[alt="riders"] {
+      height: 30rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .Text {
+      h2 {
+        font-size: 6rem;
+        margin-top: 5rem;
+      }
+      #hometext1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 10rem;
+      }
+      #hometext2 {
+        font-size: 2rem;
+      }
+      #hometext3 {
+        font-size: 2rem;
+      }
+    }
+    footer {
+      height: 6rem;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="instagram"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="twitter"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          width: 4rem;
+          height: 4rem;
+        }
+        img[alt="youtube"]:hover {
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      height: 70rem;
+      margin-top: 10rem;
+
+      width: 90%;
+      box-shadow: -8px 15px 0px #c53500;
+    }
+    .text {
+      font-size: 3rem;
+      margin-top: 5rem;
+    }
+    img[alt="cruiser"] {
+      height: 5rem;
+      width: 10rem;
+      margin: 10rem auto;
+    }
+    img[alt="cruiser"]:hover {
+      height: 6rem;
+      width: 11rem;
+    }
+  }
+  #bikes {
+    margin: 10rem 0rem;
+    width: 100%;
+    .Container {
+      width: 90%;
+      h4 {
+        font-size: 6rem;
+      }
+    }
+    img[alt="brando"] {
+      margin-top: 5rem;
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 2rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 9rem;
+      text-align: center;
+    }
+
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 3.5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 9rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 3.5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 9rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 3.5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 10rem;
+      font-size: 7rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 3rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 30rem;
+    }
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+      .carousel {
+        .thumbs-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 721px) and (max-width: 920px) {
+  #navbar {
+    background-color: #ff4400;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+
+    header {
+      background-color: #ff4400;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      #header-container {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        padding-right: 1rem;
+        #header-link {
+          margin-bottom: 0rem;
+        }
+
+        img[alt="logo"] {
+          margin: 1rem 1rem;
+          height: 8rem;
+          width: 12rem;
+          background-color: #ff4400;
+        }
+        h1 {
+          color: black;
+          font-size: 6rem;
+          font-family: "Six Caps", sans-serif;
+          margin-top: 1rem;
+          margin-bottom: 0rem;
+          width: fit-content;
+        }
+        h1:hover {
+          cursor: default;
+        }
+      }
+
+      img[alt="arrow"] {
+        position: absolute;
+        right: 1rem;
+        display: none;
+      }
+
+      .nav-text {
+        background-color: black;
+        margin-right: 0px;
+        width: fit-content;
+        padding-top: 2rem;
+        height: 11rem;
+        font-size: 2rem;
+        font-family: "Bai Jamjuree", sans-serif;
+
+        ul {
+          display: flex;
+        }
+        ul li {
+          list-style: none;
+          text-decoration: none;
+          margin-right: 1rem;
+        }
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 1rem;
+          margin-left: 0rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 5px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 2.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 20px 5px #ff4800;
+        }
+      }
+    }
+  }
+  #home {
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 80rem;
+    }
+    img[alt="riders"] {
+      width: 90%;
+      height: 60rem;
+      box-shadow: -10px 20px 0px #c53500;
+    }
+    .Text {
+      h2 {
+        font-size: 10rem;
+      }
+      .infoText {
+        font-size: 4rem;
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      display: block;
+      margin-top: 15rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .text {
+      color: orange;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 4rem;
+      font-family: "Karma", serif;
+    }
+    img[alt="cruiser"] {
+      background-color: #ff4400;
+      width: 9rem;
+      height: 5rem;
+      margin: 10rem auto;
+      border-radius: 3rem;
+    }
+    img[alt="cruiser"]:hover {
+      cursor: pointer;
+      height: 7rem;
+      width: 11rem;
+      box-shadow: 0 0 20px 8px #ff4800;
+    }
+    .infoTextReveal {
+      display: none;
+    }
+  }
+  #bikes {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    h4 {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 10rem;
+      color: #ff4400;
+    }
+
+    h4:hover {
+      text-shadow: 0 0 10px #ff4400;
+      color: black;
+      cursor: pointer;
+    }
+
+    .Container {
+      width: 90%;
+    }
+
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 1rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 10rem;
+      text-align: center;
+    }
+
+    .info {
+      font-size: 3rem;
+    }
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 4rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 10rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 4rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 10rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 6rem;
+      }
+      .info {
+        font-size: 4rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 15rem;
+      font-size: 7rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 3rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 40rem;
+    }
+
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+
+      .carousel {
+        .carousel-slider {
+          margin-bottom: 5rem;
+        }
+        .thumbs-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 921px) and (max-width: 1200px) {
+  #navbar {
+    background-color: #ff4400;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+
+    header {
+      background-color: #ff4400;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      #header-container {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+
+        padding-right: 1rem;
+        #header-link {
+          margin-bottom: -1rem;
+        }
+
+        img[alt="logo"] {
+          margin: -1rem 1rem;
+          height: 10rem;
+          width: 12rem;
+          background-color: #ff4400;
+        }
+        h1 {
+          color: black;
+          font-size: 7rem;
+          font-family: "Six Caps", sans-serif;
+          margin-top: -1rem;
+          margin-bottom: 0rem;
+          width: fit-content;
+        }
+        h1:hover {
+          cursor: default;
+        }
+      }
+
+      img[alt="arrow"] {
+        position: absolute;
+        right: 1rem;
+        display: none;
+      }
+
+      .nav-text {
+        background-color: black;
+        margin-right: 0px;
+        width: fit-content;
+        padding-top: 0rem;
+        height: 11rem;
+        font-size: 3rem;
+        font-family: "Bai Jamjuree", sans-serif;
+        ul {
+          display: flex;
+        }
+        ul li {
+          list-style: none;
+          text-decoration: none;
+          margin-right: 1rem;
+        }
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 1rem;
+          margin-left: 0rem;
+
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 5px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 2.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 20px 5px #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      display: block;
+      margin-top: 15rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .text {
+      color: orange;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 4rem;
+      font-family: "Karma", serif;
+    }
+    img[alt="cruiser"] {
+      background-color: #ff4400;
+      width: 9rem;
+      height: 5rem;
+      margin: 10rem auto;
+      border-radius: 3rem;
+    }
+    img[alt="cruiser"]:hover {
+      cursor: pointer;
+      height: 7rem;
+      width: 11rem;
+      box-shadow: 0 0 20px 8px #ff4800;
+    }
+    .infoTextReveal {
+      display: none;
+    }
+  }
+  #bikes {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    h4 {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 11rem;
+      color: #ff4400;
+    }
+
+    h4:hover {
+      text-shadow: 0 0 10px #ff4400;
+      color: black;
+      cursor: pointer;
+    }
+
+    .Container {
+      width: 100%;
+    }
+
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 12rem;
+      text-align: center;
+    }
+
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 8rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 12rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 8rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 12rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 8rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 4rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 15rem;
+      font-size: 9rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 4rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 50rem;
+    }
+
+    .carousel-root {
+      height: 50rem;
+      width: 100vw;
+
+      .carousel {
+        .carousel-slider {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  #navbar {
+    background-color: #ff4400;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+
+    header {
+      background-color: #ff4400;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      #header-container {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+
+        padding-right: 1rem;
+        #header-link {
+          margin-bottom: -1rem;
+        }
+
+        img[alt="logo"] {
+          margin: -0.5rem 1rem;
+          height: 11rem;
+          width: 13rem;
+          background-color: #ff4400;
+        }
+        h1 {
+          color: black;
+          font-size: 7rem;
+          font-family: "Six Caps", sans-serif;
+          margin-top: -0.5rem;
+          margin-bottom: 0rem;
+          width: fit-content;
+        }
+        h1:hover {
+          cursor: default;
+        }
+      }
+
+      img[alt="arrow"] {
+        position: absolute;
+        right: 1rem;
+        display: none;
+      }
+
+      .nav-text {
+        background-color: black;
+        margin-right: 0px;
+        width: fit-content;
+        padding-top: 0.5rem;
+        height: 11rem;
+        font-size: 3rem;
+        font-family: "Bai Jamjuree", sans-serif;
+        ul {
+          display: flex;
+        }
+        ul li {
+          list-style: none;
+          text-decoration: none;
+          margin-right: 2rem;
+        }
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 1rem;
+          margin-left: 0rem;
+
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 7px white, 0 0 15px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 3.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 20px 7px #ff4800;
+        }
+      }
+    }
+  }
+  #home {
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 120rem;
+      margin-bottom: 10rem;
+    }
+    img[alt="riders"] {
+      width: 90%;
+      height: 90rem;
+      box-shadow: -10px 20px 0px #c53500;
+    }
+    .Text {
+      color: #dd4814;
+      text-align: center;
+      padding: 1rem;
+
+      h2 {
+        font-family: "Yeseva One", cursive;
+        font-size: 15rem;
+        margin: auto;
+      }
+      .infoText {
+        font-family: "Karma", serif;
+        font-size: 7rem;
+      }
+      h3 {
+        font-family: "Six Caps", sans-serif;
+        font-size: 19rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+      }
+      #hometext2 {
+        margin-top: 1rem;
+        font-size: 4rem;
+      }
+      #hometext3 {
+        margin-top: 1rem;
+        font-size: 4rem;
+      }
+    }
+    footer {
+      width: 100%;
+      height: 8rem;
+      background-color: black;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 5.5rem;
+          height: 5.5rem;
+        }
+        img[alt="instagram"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 6rem;
+          height: 6rem;
+        }
+        img[alt="twitter"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 6rem;
+          height: 6rem;
+        }
+        img[alt="youtube"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      display: block;
+      margin-top: 15rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .text {
+      color: orange;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 4rem;
+      font-family: "Karma", serif;
+    }
+    img[alt="cruiser"] {
+      background-color: #ff4400;
+      width: 9rem;
+      height: 5rem;
+      margin: 10rem auto;
+      border-radius: 5rem;
+    }
+    img[alt="cruiser"]:hover {
+      cursor: pointer;
+      height: 7rem;
+      width: 11rem;
+      box-shadow: 0 0 20px 8px #ff4800;
+    }
+    .infoTextReveal {
+      display: none;
+    }
+  }
+  #bikes {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    h4 {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 11rem;
+      color: #ff4400;
+    }
+
+    h4:hover {
+      text-shadow: 0 0 10px #ff4400;
+      color: black;
+      cursor: pointer;
+    }
+
+    .Container {
+      width: 100%;
+    }
+
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 4.5rem;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 14rem;
+      text-align: center;
+    }
+
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 9rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 14rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 9rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 14rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 9rem;
+      }
+      .info {
+        font-size: 5rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 3rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 9px 15px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 15rem;
+      font-size: 12rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 4rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 70rem;
+    }
+
+    .carousel-root {
+      height: 30rem;
+      width: 100vw;
+
+      .carousel {
+        .carousel-slider {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  #navbar {
+    background-color: #ff4400;
+    width: 100%;
+    height: 10rem;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+
+    header {
+      background-color: #ff4400;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      #header-container {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+
+        padding-right: 1rem;
+        #header-link {
+          margin-bottom: -1rem;
+        }
+
+        img[alt="logo"] {
+          margin: -1rem 2rem;
+          height: 14rem;
+          width: 16rem;
+          background-color: #ff4400;
+        }
+        h1 {
+          color: black;
+          font-size: 10rem;
+          font-family: "Six Caps", sans-serif;
+          margin-top: -1rem;
+          margin-bottom: 0rem;
+          width: fit-content;
+        }
+        h1:hover {
+          cursor: default;
+        }
+      }
+
+      img[alt="arrow"] {
+        position: absolute;
+        right: 1rem;
+        display: none;
+      }
+
+      .nav-text {
+        background-color: black;
+        margin-right: 0px;
+        padding-top: 0rem;
+        width: fit-content;
+        height: 13rem;
+        font-size: 4rem;
+        font-family: "Bai Jamjuree", sans-serif;
+        ul {
+          display: flex;
+        }
+        ul li {
+          list-style: none;
+          text-decoration: none;
+          margin-right: 2rem;
+        }
+        .nav-a {
+          text-decoration: none;
+          color: #ff4800;
+          cursor: pointer;
+          border: #ff4800 0.3rem solid;
+          border-radius: 5px;
+          margin-right: 1rem;
+          margin-left: 0rem;
+          width: max-content;
+          padding: 0.5rem 1rem;
+          text-shadow: 0 0 5px white, 0 0 10px #ff4800;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 20px 0 #ff4800;
+        }
+
+        .nav-a:hover {
+          font-size: 5.5rem;
+          background-color: #ff4800;
+          text-shadow: none;
+          color: black;
+          box-shadow: 0 0 20px 10px #ff4800;
+        }
+      }
+    }
+  }
+  #home {
+    img[alt="hdmomoa"] {
+      width: 100%;
+      height: 130rem;
+      margin-bottom: 10rem;
+    }
+    img[alt="riders"] {
+      width: 90%;
+      height: 100rem;
+      box-shadow: -10px 20px 0px #c53500;
+    }
+    .Text {
+      color: #dd4814;
+      text-align: center;
+      padding: 1rem;
+
+      h2 {
+        font-family: "Yeseva One", cursive;
+        font-size: 16rem;
+        margin: auto;
+      }
+      .infoText {
+        font-family: "Karma", serif;
+        font-size: 8rem;
+      }
+      h3 {
+        font-family: "Six Caps", sans-serif;
+        font-size: 20rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+      }
+      #hometext2 {
+        margin-top: 1rem;
+        font-size: 5rem;
+      }
+      #hometext3 {
+        margin-top: 1rem;
+        font-size: 5rem;
+      }
+    }
+    footer {
+      width: 100%;
+      height: 8rem;
+      background-color: black;
+      padding: 1rem;
+      #footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img[alt="instagram"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 5.5rem;
+          height: 5.5rem;
+        }
+        img[alt="instagram"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+        img[alt="twitter"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 6rem;
+          height: 6rem;
+        }
+        img[alt="twitter"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+        img[alt="youtube"] {
+          background-color: #ff4400;
+          border-radius: 5px;
+          width: 6rem;
+          height: 6rem;
+        }
+        img[alt="youtube"]:hover {
+          border: 5px solid #ff4800;
+          border-radius: 5px;
+          box-shadow: inset 0 0 20px 0 #ff5f1f, 0 0 30px 0 #ff4800;
+        }
+      }
+    }
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    img[alt="knucklehead"] {
+      display: block;
+      margin-top: 30rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      box-shadow: -10px 15px 0px #c53500;
+    }
+    .text {
+      color: orange;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 8rem;
+      font-family: "Karma", serif;
+    }
+    img[alt="cruiser"] {
+      background-color: #ff4400;
+      width: 12rem;
+      height: 8rem;
+      margin: 10rem auto;
+      border-radius: 5rem;
+    }
+    img[alt="cruiser"]:hover {
+      cursor: pointer;
+      height: 10rem;
+      width: 14rem;
+      box-shadow: 0 0 20px 8px #ff4800;
+    }
+    .infoTextReveal {
+      display: none;
+    }
+  }
+  #bikes {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    h4 {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 14rem;
+      color: #ff4400;
+    }
+
+    h4:hover {
+      text-shadow: 0 0 10px #ff4400;
+      color: black;
+      cursor: pointer;
+    }
+
+    .Container {
+      width: 100%;
+    }
+
+    img[alt="brando"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 7.5rem;
+      margin-top: 20rem;
+      box-shadow: -10px 25px 0px #c53500;
+    }
+    img[alt="superduke"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 7.5rem;
+      box-shadow: -10px 25px 0px #c53500;
+    }
+    img[alt="pan_america"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 7.5rem;
+      box-shadow: -10px 25px 0px #c53500;
+    }
+    img[alt="livewire"] {
+      width: 90%;
+      height: 20%;
+      margin-left: 7.5rem;
+      box-shadow: -10px 25px 0px #c53500;
+    }
+  }
+  #retro {
+    width: 100%;
+    h4 {
+      font-size: 16rem;
+      text-align: center;
+    }
+
+    .retro {
+      width: 100%;
+      .title {
+        font-size: 12rem;
+      }
+      .info {
+        font-size: 6rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 5rem;
+        }
+      }
+    }
+    img[alt="w800"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="xsr900"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="scrambler"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="speedtwin"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="v7"] {
+      width: 80%;
+      margin: 0 1rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+  }
+  #naked {
+    width: 100%;
+    h4 {
+      font-size: 16rem;
+      text-align: center;
+    }
+
+    .naked {
+      width: 100%;
+      .title {
+        font-size: 12rem;
+      }
+      .info {
+        font-size: 6rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 5rem;
+        }
+      }
+    }
+    img[alt="mt03"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="superduke1290r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="zh2"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="800rr"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="fatbob"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+  }
+  #adventure {
+    width: 100%;
+    h4 {
+      font-size: 16rem;
+      text-align: center;
+    }
+
+    .adventure {
+      width: 100%;
+      .title {
+        font-size: 12rem;
+      }
+      .info {
+        font-size: 6rem;
+      }
+      table {
+        margin-bottom: 10rem;
+        td {
+          box-shadow: 0 0 10px 3px #ff4800;
+          font-size: 5rem;
+        }
+      }
+    }
+    img[alt="tiger1200"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="vstrom"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="1250gs"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+    img[alt="890r"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 15px 0px #c53500;
+    }
+    img[alt="panamerica"] {
+      width: 80%;
+      margin: 0 4rem;
+      box-shadow: 10px 25px 0px #c53500;
+    }
+  }
+  #Future {
+    width: 100%;
+    h4 {
+      margin-top: 25rem;
+      font-size: 16rem;
+      text-align: center;
+    }
+    .info {
+      font-size: 7rem;
+      padding: 5rem;
+    }
+    #vid {
+      height: 90rem;
+    }
+
+    .carousel-root {
+      height: 40rem;
+      width: 100vw;
+
+      .carousel {
+        .carousel-slider {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+  }
+}
